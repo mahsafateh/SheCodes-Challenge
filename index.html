@@ -2,17 +2,18 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8"/>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
     integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
     crossorigin="anonymous" />
-  <link rel="stylesheet" href="assets/styles/style.css"/>
+  <link rel="stylesheet" href="assets/styles/style.css" />
   <title>My Beautiful Hometown</title>
 </head>
 
 <body>
+  <div class="loading-text">0%</div>
   <div class="container">
     <div class="circle-container">
       <div class="circle">
@@ -25,37 +26,73 @@
       </div>
     </div>
     <div class="content">
-      <h1>Amazing Article</h1>
-      <small>My Beautiful Country</small>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quia in ratione dolores cupiditate, maxime
-        aliquid impedit dolorem nam dolor omnis atque fuga labore modi veritatis porro laborum minus, illo, maiores
-        recusandae cumque ipsa quos. Tenetur, consequuntur mollitia labore pariatur sunt quia harum aut. Eum maxime
-        dolorem provident natus veritatis molestiae cumque quod voluptates ab non, tempore cupiditate? Voluptatem,
-        molestias culpa. Corrupti, laudantium iure aliquam rerum sint nam quas dolor dignissimos in error placeat quae
-        temporibus minus optio eum soluta cupiditate! Cupiditate saepe voluptates laudantium. Ducimus consequuntur
-        perferendis consequatur nobis exercitationem molestias fugiat commodi omnis. Asperiores quia tenetur nemo ipsa.
-      </p>
-  
-      <h3>Beautiful Istanbul</h3>
-      <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/051/234/original/Istanbul.jpg?1667415280"
-        alt="istanbul" />
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit libero deleniti rerum quo, incidunt vel consequatur
-        culpa ullam. Magnam facere earum unde harum. Ea culpa veritatis magnam at aliquid. Perferendis totam placeat
-        molestias illo laudantium? Minus id minima doloribus dolorum fugit deserunt qui vero voluptas, ut quia cum amet
-        temporibus veniam ad ea ab perspiciatis, enim accusamus asperiores explicabo provident. Voluptates sint, neque
-        fuga cum illum, tempore autem maxime similique laborum odio, magnam esse. Aperiam?</p>
+      <div class="text1 hidden"><h1>HOME</h1></div>
+      <div class="text2 hidden">
+        <div class="paraghraph">
+          <h1>Amazing Article</h1>
+          <small>My Beautiful Country</small>
+          <p>
+            Türkiye is a large peninsula that bridges the continents of Europe and Asia. türkiye is surrounded on three
+            sides
+            by the Black Sea, the Mediterranean Sea, and the Aegean Sea. Istanbul, the largest city in türkiye, is built
+            on
+            land in the Bosporus seaway. The city is partly in Europe and partly in Asia.
+            türkiye's highest mountain, Mount Ararat has two peaks, with Great Ararat reaching 16,945 feet (5,165
+            meters).
+            The mountain is considered sacred by many people and is believed to be where Noah beached his ark after the
+            great flood.
+            Turks are family oriented and are very hospitable people. They invite visitors to their homes and make sure
+            they
+            have something to eat and drink before they leave.
+          </p>
+
+          <h3>Beautiful Türkiye</h3>
+          <p>
+            Türkiye is a resting location for birds on their migratory journey between their summer and winter homes.
+            They
+            flock to Kus Golu, or Bird Lake in a protected national forest that is surrounded by reed marshes. The first
+            national park in türkiye opened in 1958.
+
+            Today there are 39 parks where rare species and their habitats are protected. Several species are at risk,
+            including the northern bald eagle which is critically endangered.
+
+            At one time, türkiye was home to jackals, lynx, wolves, and bears but those animal species are rare now. The
+            Turkish horned viper snake has spikelike scales that poke upward near their eyes.
+
+            Once known as Cotton Castle, the white cliffs in Pamukkale in western türkiye are made of a calcium-rich
+            mineral
+            called travertine. The cliffs look like a sheet of ice covering a hillside from a distance. A spring flows
+            from
+            pool to pool. The cascade is 1.7 miles (2.7 kilometers) long.
+          </p>
+        </div>
+      </div>
+      <div class="text3 hidden">
+        <h1>Hi</h1>
+        <P>
+          
+        </P>
+        <h3>This page build by Mahsa Fateh</h3>
+      </div>
     </div>
-    </div>
+  </div>
   </div>
 
   <nav>
     <ul>
-      <li><i class="fas fa-home"></i><a href="#"> Home</a></li>
-      <li><i class="fas fa-user-alt"></i><a href="#"> About</a></li>
-      <li><i class="fas fa-envelope"></i><a href="#"> Contact</a></li>
+      <li><i class="fas fa-home"></i>
+        <a href="#" onclick="visibleText('text1')"> Home</a>
+      </li>
+      <li><i class="fas fa-user-alt"></i>
+        <a href="#" onclick="visibleText('text2')"> About</a>
+      </li>
+      <li><i class="fas fa-envelope"></i>
+        <a href="#" onclick="visibleText('text3')"> Contact</a>
+      </li>
     </ul>
   </nav>
 </body>
 
 <script src="assets/scripts/app.js"></script>
+
 </html>
