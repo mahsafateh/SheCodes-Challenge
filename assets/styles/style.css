@@ -157,17 +157,15 @@ nav a:hover {
   box-shadow: 3px 3px 16px #1c1c1c94;
 }
 
-.content h1 {
+h1 {
   margin: 0;
 }
 
-.content small {
-  /* color: #555; */
+small {
   font-style: italic;
 }
 
-.content p {
-  /* color: #333; */
+p {
   line-height: 1.5;
 }
 
@@ -177,4 +175,10 @@ nav a:hover {
 
 .visible {
   display: block;
+}
+
+a{
+  text-decoration: none;
+  color: #FF7979;
+  cursor: pointer;
 }
